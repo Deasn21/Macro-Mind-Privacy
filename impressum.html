@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Impressum – MacroMind</title>
+  <style>
+    :root {
+      --text: #111;
+      --muted: #555;
+      --bg: #fff;
+      --card: #f6f7f8;
+      --border: #e6e6e6;
+      --accent: #0a6b3c;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      line-height: 1.6;
+      margin: 32px;
+      color: var(--text);
+      background: var(--bg);
+      max-width: 920px;
+    }
+    h1 { margin: 0 0 8px; }
+    h2 { margin: 28px 0 10px; color: var(--accent); }
+    p, li { color: var(--text); }
+    .muted { color: var(--muted); }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px 18px;
+      margin: 14px 0;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    code {
+      background: #f2f2f2;
+      padding: 2px 6px;
+      border-radius: 6px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 0.95em;
+    }
+    hr { border: 0; border-top: 1px solid var(--border); margin: 24px 0; }
+  </style>
+</head>
+
+<body>
+  <h1>Impressum</h1>
+  <p class="muted">Angaben gemäß <strong>§ 5 Digitale-Dienste-Gesetz (DDG)</strong></p>
+  <!-- Hinweis: Die Impressumspflicht ist inhaltlich wie früher, aber die Referenz ist jetzt § 5 DDG statt § 5 TMG.  [oai_citation:0‡eRecht24](https://www.e-recht24.de/news/datenschutz/13296-webseitenbetreiber-aufgepasst-das-tmg-wird-zum-digitale-dienste-gesetz-aktualisieren-sie-jetzt-ihr-impressum.html?utm_source=chatgpt.com) -->
+
+  <div class="card">
+    <p>
+      <strong>[Vor- und Nachname / Unternehmensname]</strong><br />
+      [Straße Hausnummer]<br />
+      [PLZ Ort]<br />
+      Deutschland
+    </p>
+
+    <p>
+      <strong>Kontakt</strong><br />
+      E-Mail: <a href="mailto:macromind.support@t-online.de">macromind.support@t-online.de</a><br />
+      <!-- Optional: Telefon (nicht zwingend, aber üblich): [Telefonnummer] -->
+    </p>
+
+    <!-- Optional: Falls du als Unternehmer:in eine USt-IdNr. hast -->
+    <p class="muted" style="margin-bottom:0;">
+      <!-- Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG: [USt-IdNr.] -->
+      <!-- Handelsregister: [Registergericht, Registernummer] -->
+      <!-- Zuständige Aufsichtsbehörde (falls erforderlich): [Behörde] -->
+    </p>
+  </div>
+
+  <h2>Verantwortliche Person für redaktionelle Inhalte</h2>
+  <!-- § 18 MStV hat den alten § 55 Abs. 2 RStV abgelöst.  [oai_citation:1‡dr-dsgvo.de](https://dr-dsgvo.de/18-mstv-informationspflichten-und-auskunftsrechte/?utm_source=chatgpt.com) -->
+  <p class="muted">
+    <!--
+      Nur ausfüllen, wenn du "journalistisch-redaktionelle Inhalte" anbietest (z.B. Blog/News).
+      Reine App-/Landingpage-Infos brauchen das oft nicht, aber viele nutzen es vorsorglich.
+    -->
+    Verantwortlich für den Inhalt nach <strong>§ 18 Abs. 2 MStV</strong>:<br />
+    <strong>[Vor- und Nachname]</strong><br />
+    [Straße Hausnummer]<br />
+    [PLZ Ort]<br />
+    Deutschland
+  </p>
+
+  <h2>Haftung für Inhalte</h2>
+  <p>
+    Die Inhalte dieser Website wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit
+    und Aktualität der Inhalte kann jedoch keine Gewähr übernommen werden.
+  </p>
+
+  <h2>Haftung für Links</h2>
+  <p>
+    Diese Website kann Links zu externen Websites Dritter enthalten. Auf deren Inhalte haben wir keinen Einfluss.
+    Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.
+  </p>
+
+  <h2>Urheberrecht</h2>
+  <p>
+    Die durch den Betreiber dieser Website erstellten Inhalte und Werke unterliegen dem deutschen Urheberrecht.
+    Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts
+    bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.
+  </p>
+
+  <h2>Verbraucherstreitbeilegung</h2>
+  <p>
+    Wir sind nicht verpflichtet und nicht bereit, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+  </p>
+
+  <div class="card">
+    <p class="muted" style="margin:0;">
+      <!--
+        Hinweis zur OS-Plattform:
+        Die EU-Online-Streitbeilegungsplattform (OS/ODR) wurde eingestellt (Abschaltung zum 20. Juli 2025).
+        Daher keinen ODR-Link mehr aufnehmen.  [oai_citation:2‡kapellmann.de](https://kapellmann.de/de/abschaltung-der-os-plattform-handlungsbedarf-fuer-online-haendler?utm_source=chatgpt.com)
+      -->
+      Stand: <span id="lastUpdated">[TT.MM.JJJJ]</span>
+    </p>
+  </div>
+
+  <hr />
+
+  <p class="muted">
+    Hinweis: Ersetze alle <code>[Platzhalter]</code>. Wenn du als Privatperson ohne geschäftsmäßiges Angebot unterwegs bist,
+    kann die Impressumspflicht im Einzelfall anders bewertet werden – bei Apps im Store ist ein vollständiges Impressum aber
+    in der Praxis meist die sichere Variante.
+  </p>
+
+  <script>
+    // Optional: wenn du willst, kannst du hier automatisch ein Datum setzen:
+    // document.getElementById('lastUpdated').textContent = new Date().toLocaleDateString('de-DE');
+  </script>
+</body>
+</html>
